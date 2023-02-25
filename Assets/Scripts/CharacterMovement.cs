@@ -26,7 +26,7 @@ public class CharacterMovement : MonoBehaviour
 
     public void DynamicMovement(Vector3 enemyPosition)
     {
-        Debug.Log(enemyPosition);
+        // Debug.Log(enemyPosition);
         transform.localPosition = Vector3.Lerp(transform.position, enemyPosition, 0.01f);
     }
 }
